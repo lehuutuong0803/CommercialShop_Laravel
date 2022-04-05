@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Numans);
+.filter-form{
+    background: #FFF;
+    padding: 20px;
+    background-color: #f0f2f5 !important;
+}
+.filter-form label{
+    color: #000;
+}
+.filter-form legend{
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+}
+.filter-item{
+    display: inline-block;
+    margin-right: 15px;
+}
+.filter-item input{
+    border-radius: 5px;
+    border: 1px solid #e91e63;
+}
+.insert{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.insert input{
+
+    border-radius: 5px;
+    border: 1px solid #e91e63;
+    margin-left: 35px;
+
+}
+.info{
+    border-radius: 5px;
+    border: 1px solid #e91e63;
+    margin-left: 35px;
+}
+.insert select{
+
+    border-radius: 5px;
+    border: 1px solid #e91e63;
+    margin-left: 35px;
+    width: 110px;
+}
+.insert textarea{
+    border-radius: 5px;
+    border: 1px solid #e91e63;
+    margin-left: 35px;
+    width: 550px;
+}
+.block-line{
+    display: inline-grid;
+
+}
+.form_insert{
+    background-color: #e02c68 !important;
+    border-radius: 10px;
+    width: 800px;
+    margin-left: 235px;
+
+}
+.form_insert label{
+    color: #FFF;
+    font-size: 20px;
+}
+.button-update{
+    width: 500px;
+    height: 60px;
+    margin-top: 20px;
+    background-color: #b0b435;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0px;
+}
+
