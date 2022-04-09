@@ -35,6 +35,7 @@ Route::middleware(['admin']) ->group(function (){
     Route::post('/quan-tri/chinh-sua/{model}/{id}',[EditingController::class,'updating'])->name('editing.updating');
 
     Route::get('/quan-tri/xoa/{model}/{id}',[EditingController::class,'deleting'])->name('editing.deleting');
+    Route::get('/quan-tri/chi-tiet-hoa-don/{id}',[ListingController::class,'detailed_payment'])->name('listing.detailed_payment');
 });
 
 

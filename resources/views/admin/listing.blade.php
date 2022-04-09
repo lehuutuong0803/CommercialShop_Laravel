@@ -135,6 +135,12 @@
                                         </td>
                                         <?php break;?>
                                         <?php
+                                        case "detail":?>
+                                        <td  class="align-middle text-center text-sm">
+                                            <a href="http://127.0.0.1:8000/quan-tri/chi-tiet-hoa-don/<?= $record['id'] ?>"><img style="width:32px;height:32px;" src="/assets/img/detail.jpg"></a>
+                                        </td>
+                                        <?php break;?>
+                                        <?php
                                         case "delete":?>
                                         <td  class="align-middle text-center text-sm">
                                             <a href="http://127.0.0.1:8000/quan-tri/xoa/<?= $modelName ?>/<?= $record['id'] ?>""><img style="width:32px;height:32px;" src="/assets/img/delee.png"></a>

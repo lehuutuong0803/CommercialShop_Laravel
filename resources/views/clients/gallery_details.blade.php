@@ -65,7 +65,7 @@
                         <?php foreach ($comments as $commnet) {?>
                         <div class="media mb-3">
                             <div class="mr-2">
-                                <i class="fa-solid fa-user"> #<?= $commnet['id'] ?></i>
+                                <i class="fa-solid fa-user"> #<?= $commnet['id_user'] ?></i>
                             </div>
                             <div class="media-body">
                                 <p><?= $commnet['content'] ?></p>

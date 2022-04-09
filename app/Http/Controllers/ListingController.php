@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
+use App\Models\Detailed_invoice;
+use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -59,6 +61,20 @@ class ListingController extends Controller
                             'configs' => $configs,
                             'modelName' =>$modelName,
                             'orderBy' => $orderBy
+        ]);
+    }
+
+    public function detailed_payment(Request $request,$id){
+        $admin = Auth::guard('admin')->user();
+        $details = Detailed_invoice::where('id_invoice',$id)->get();
+        $productList = Product::all();
+
+
+        return view('admin.detailed_invoice', [
+            'user' => $admin,
+            'details' => $details,
+            'productList' => $productList,
+            'id_invoice' => $id
         ]);
     }
 }
