@@ -12,7 +12,7 @@
 
     <form class="form_insert" action="{{route('editing.updating',['model'=>$modelName,'id'=>$item['id']])}}" method="POST" enctype="multipart/form-data">
         @csrf
-        <h3 style="color: #FFF; text-align: center; margin-top: 5px "> Tạo mới </h3>
+        <h3 style="color: #FFF; text-align: center; margin-top: 5px "> Tạo mới master </h3>
         <?php if(!empty($configs)) {
         foreach ($configs as $config){
         switch ($config['type']){
