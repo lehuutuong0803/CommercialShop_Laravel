@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="insert">
-                <label style="color: black" > <b>SĐT: </b></label>
+                <label style="color: black" > <b>Số Điện Thoại: </b></label>
                 <div >
                     <h2 style="margin-left: 100px" type="text" > <?= $user['number_phone'] ?> </h2>
                 </div>
