@@ -2,7 +2,7 @@
 @section('content')
     <?php if(!empty($success)){
     if($success == true){ ?>
-    <h3> Chỉnh sửa thành công!</h3>
+    <h3> Chỉnh sửa thành công!!!</h3>
     <?php  }else{ ?>
     <h3> Chỉnh sửa thất bại!</h3>
     <?php   }
